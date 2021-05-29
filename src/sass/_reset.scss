@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  // width: 100vw;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+input,
+button,
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  background-color: #fff;
+  z-index: -1000;
+  min-height: 100%;
+}
+
+// // int-tel-input plagin reset
+// .iti__flag {
+//   background-image: url("../icons/flags/flags.png");
+// }
+
+// @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+//   .iti__flag {
+//     background-image: url("../icons/flags/flags@2x.png");
+//   }
+// }
